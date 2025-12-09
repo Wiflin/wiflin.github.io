@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/bollnh/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://.disqus.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://hm.baidu.com"/>
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            钱：如何被创造（中） | 
+        
+        Wiflin 的 百草园
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.svg">
+    <link rel="icon" href="/img/favicon.svg">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="wiflin, blog, wiflin的杂草园, wiflin的百草园">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #e9e9e9;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery-3.7.1.min.js?LIctvmD0unD7hTVhE9izXg==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Wiflin 的 百草园">
+    <meta name="msapplication-starturl" content="zwf.im/how-money-created/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Wiflin 的 百草园">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.svg">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="zwf.im/how-money-created/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="钱：如何被创造（中） | Wiflin 的 百草园">
+    <meta property="og:image" content="/img/favicon.svg">
+    <meta property="og:description" content="">
+    
+
+    
+        <meta property="article:published_time" content="Fri Mar 15 2024 00:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Sat Apr 27 2024 00:49:55 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="zwf.im/how-money-created/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "zwf.im/how-money-created/index.html",
+    "headline": "钱：如何被创造（中）",
+    "datePublished": "Fri Mar 15 2024 00:00:00 GMT+0800",
+    "dateModified": "Sat Apr 27 2024 00:49:55 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Mr Wiflin",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/tower.png"
+        },
+        "description": "这个人很懒，这里杂草丛生。"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Wiflin 的 百草园",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.svg"
+        }
+    },
+    "keywords": "wiflin, blog, wiflin的杂草园, wiflin的百草园",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111728471-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+        <script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?ef9cc7e7fff33870734358077543246f';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    
+    
+
+    <!-- Custom Head -->
+    
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#钱的数量：资产负债表"><span class="post-toc-number">1.</span> <span class="post-toc-text">钱的数量：资产负债表</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#中央银行直接发行"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">中央银行直接发行</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#商业银行直接发行"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">商业银行直接发行</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#钱的价格：利率"><span class="post-toc-number">2.</span> <span class="post-toc-text">钱的价格：利率</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#银行借钱的价格：联邦基金利率（FFR，Federal-Fund-Rate）"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">银行借钱的价格：联邦基金利率（FFR，Federal Fund Rate）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Case：准备金稀缺阶段（08年以前）"><span class="post-toc-number">2.1.1.</span> <span class="post-toc-text">Case：准备金稀缺阶段（08年以前）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Case：准备金过剩阶段（08年以后）"><span class="post-toc-number">2.1.2.</span> <span class="post-toc-text">Case：准备金过剩阶段（08年以后）</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#市场借钱的价格：债券利率"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">市场借钱的价格：债券利率</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#费雪方程式：钱和价格的关系"><span class="post-toc-number">3.</span> <span class="post-toc-text">费雪方程式：钱和价格的关系</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#央行通过资产负债表和利率控制钱的总数"><span class="post-toc-number">4.</span> <span class="post-toc-text">央行通过资产负债表和利率控制钱的总数</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#流通中钱的总量"><span class="post-toc-number">5.</span> <span class="post-toc-text">流通中钱的总量</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                钱：如何被创造（中）
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/tower.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Mr Wiflin</strong>
+        <span>3月 15, 2024</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=钱：如何被创造（中）&url=zwf.im/how-money-created/index.html&pic=zwf.im/img/favicon.svg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=钱：如何被创造（中）&url=zwf.im/how-money-created/index.html&via=Mr Wiflin" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=zwf.im/how-money-created/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=zwf.im/how-money-created/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>最近美联储使了一招阳谋，短短两次放鸽推迟降息预期，把各央行都整得头疼，汇率大跌。这种高利率继续下去势必要拉爆几个国家，完成一波收割才罢休。这段时间正好整理了些笔记，关于“央行怎么控制钱的数量”。</p>
+</blockquote>
+<!-- >美联储高利率已经维持了快两年，而2024年的降息预期一鸽再鸽，继续下去亚非拉小国央行都要被拉爆。 -->
+<h1 id="钱的数量：资产负债表"><a href="#钱的数量：资产负债表" class="headerlink" title="钱的数量：资产负债表"></a>钱的数量：资产负债表</h1><h2 id="中央银行直接发行"><a href="#中央银行直接发行" class="headerlink" title="中央银行直接发行"></a>中央银行直接发行</h2><p><strong>央行资产负债表（最终贷款人）</strong>：美联储的资产负债表是其向市场<strong>直接</strong>投放的钱的数量，这些钱可能流向政府、企业（房地美/房利美）、商业银行。可以认为FRB的钱会直接流入社会的金融体系中。总量：<a href="https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm" target="_blank" rel="noopener">资产负债表</a>。疫情期间资产负债表总量达到最高点约九万亿美元，代表央行直接向市场投放九万亿。</p>
+<p><strong>美联储资产负债表主要项目</strong></p>
+<table>
+<thead>
+<tr>
+<th>资产 Asset</th>
+<th>负债 Liability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>证券（国债、MBS）</td>
+<td>流通货币 Currency</td>
+</tr>
+<tr>
+<td>金融机构借款票据</td>
+<td>银行储备金 Reserve</td>
+</tr>
+</tbody>
+</table>
+<!-- ![](../post_img/Pasted%20image%2020240309182642.png) -->
+<p><strong>量化宽松（Quantentive Ease）</strong>：可以见到资产负债表有几个时期出现急剧抬头的尖峰，这代表了美联储在短期内向市场投放钱的数量急剧增加。这几个时间为美联储量化宽松QE时期，其中有：2008年金融危机，2011年，2013年共三次QE，以及疫情期间的无限QE。<br><img src="../post_img/Pasted%20image%2020240418013629.png" alt=""></p>
+<p><strong>央行资产负载表/GDP比例：</strong> 这是比较有意思的指标，资产负债表是存量，而GDP是流量，其比值表明了央行资金的使用效率。当比值越小时，代表每一单位高能货币产生的GDP更高，货币在经济体系中流动的次数和速率更高。当比值变大时，表明信用扩张所推动经济增长的比例增加。<br><img src="../post_img/Pasted%20image%2020240418013728.png" alt=""></p>
+<h2 id="商业银行直接发行"><a href="#商业银行直接发行" class="headerlink" title="商业银行直接发行"></a>商业银行直接发行</h2><p><strong>存款准备金率（货币乘数）</strong>：过去银行每存入一块钱就需要向央行存入一部分作为存款准备金。因此银行最后能贷出钱的数量受到基础存款数量和存款准备金率限制。银行体系的基础存款最后都是由美联储向市场直接投放的货币构成，因此这约束准备金的上限。通过降低准备金率即可增加货币乘数，提高准备金率即可降低货币乘数。但是存款准备金只决定了货币乘数的上限，市场中的实际借贷数量是由经济活动所决定的。因此这个工具对市场中货币数量影响的传递比较慢（1980美联储提升准备金率控制通胀效果不明显）。其次，银行可以通过活期和定期的换期操作使存款受到不同准备金率的影响，由此间接绕过借贷上限的管控。最后美联储基本不再使用此工具。<br><img src="../post_img/Pasted%20image%2020240310232023.png" alt=""><br><img src="../post_img/Pasted%20image%2020240310232456.png" alt=""></p>
+<p><strong>银行资产负债表</strong>：<br><img src="../post_img/Pasted%20image%2020240309193828.png" alt=""></p>
+<p>社会货币总量（M2/M3）<br><img src="../post_img/Pasted%20image%2020240309233011.png" alt=""></p>
+<h1 id="钱的价格：利率"><a href="#钱的价格：利率" class="headerlink" title="钱的价格：利率"></a>钱的价格：利率</h1><h2 id="银行借钱的价格：联邦基金利率（FFR，Federal-Fund-Rate）"><a href="#银行借钱的价格：联邦基金利率（FFR，Federal-Fund-Rate）" class="headerlink" title="银行借钱的价格：联邦基金利率（FFR，Federal Fund Rate）"></a>银行借钱的价格：联邦基金利率（FFR，Federal Fund Rate）</h2><p><strong>联邦贴现率（Federal Discount Rate）</strong>：【借】银行向美联储借钱的利率。</p>
+<blockquote>
+<p>符合条件的金融机构可以直接从联邦储备银行借款的利率。 准备金低于美联储理事会设定的准备金要求的银行会用这笔钱来纠正其短缺问题。 各储备银行董事会每 14 天设定一次贴现率。 它被认为是银行的最后手段，银行通常互相借款。</p>
+</blockquote>
+<p><strong>准备金利率（IORB，Interest Rate on Reserve Balance）</strong>：【存】银行在美联储存准备金的利率。</p>
+<blockquote>
+<p>央行会为银行存放在央行中的存款准备金支付利率，在2020存款准备金率降至0之前，存款准备金粉两部分构成：a.法定准备金（Required Reserve），b.超额准备金（Excess Reserve）。央行为这两种准备金分别设定利率：IORR（Interest Rate on Required Reserve），IOER（Interest Rate on Excess Reserves）。在2020年之后由于准备金率降为0，只存在超额准备金，准备金利率也合并为 IORB（Interest Rate on Reserve Balance）。</p>
+</blockquote>
+<p><em>银行为什么需要借钱</em><br><strong>同行间拆借利率（Interbank Offered Rate）</strong>：商业银行向商业银行借钱的利率。银行为了满足客户取款和转账需求，需要消耗存款准备金。如果准备金不足，则需要向其他银行借入准备金。</p>
+<blockquote>
+<p>指金融机构同业之间的短期资金借贷利率。它有两个利率，拆进利率表示金融机构愿意借款的利率；拆出利率表示愿意贷款的利率。 同业拆借利率是拆借市场的资金价格，是货币市场的核心利率，也是整个金融市场上具有代表性的利率，它能够及时、灵敏、准确地反映货币市场乃至整个金融市场短期资金供求关系。比较有名的利率莫过于Libor（伦敦同业拆借利率）、Shibor（上海同业拆借利率）。</p>
+</blockquote>
+<p>联邦基金利率（FFR）：多个商业银行的拆借利率中位数。</p>
+<blockquote>
+<p>最主要的为隔夜拆借利率。这种利率的变动能够敏感地反映银行之间资金的余缺，美联储瞄准并调节同业拆借利率能直接影响商业银行的资金成本，并且将同业拆借市场的资金余缺传递给工商企业，进而影响消费、投资和国民经济。在联邦基金市场中最常被引用的利率是有效联邦基金利率。联邦储备公告将每日有效利率定义为：通过纽约经纪人交易的加权平均利率。 </p>
+</blockquote>
+<p>同行间拆借利率会介于联邦贴现率和准备金利率之间。其原理在于，如果拆借利率高于贴现率则可以直接向央行借钱；如果拆借利率低于准备金率，银行会将钱出借给央行（存央行）而不会出借给其他银行。</p>
+<h3 id="Case：准备金稀缺阶段（08年以前）"><a href="#Case：准备金稀缺阶段（08年以前）" class="headerlink" title="Case：准备金稀缺阶段（08年以前）"></a>Case：准备金稀缺阶段（08年以前）</h3><p>银行手中的准备金较少，能够互相拆借的数量不能满足需求。因此美联储可以通过控制市场中准备金的供给来调控拆借利率利率。具体的方式为，美联储从银行手中直接买入债券，银行的准备金账户余额直接增加。</p>
+<p><em>银行在美联储中超额准备金数量的变化图</em><br><img src="../post_img/Pasted%20image%2020240310234035.png" alt=""><br><img src="../post_img/Pasted%20image%2020240310224622.png" alt=""><br><img src="../post_img/Pasted%20image%2020240310233219.png" alt=""></p>
+<h3 id="Case：准备金过剩阶段（08年以后）"><a href="#Case：准备金过剩阶段（08年以后）" class="headerlink" title="Case：准备金过剩阶段（08年以后）"></a>Case：准备金过剩阶段（08年以后）</h3><blockquote>
+<p>Master Account: 主账户是账户持有人和行政储备银行（或按照操作通告 1 允许维护主账户的任何其他储备银行）相互之间的财务权利和义务的记录，其中期初、日内和期末余额 已确定。 主账户由主要的九位路由转接号码 (RTN) 标识。</p>
+</blockquote>
+<p>08年之后，银行和金融机构手中的现金数量大幅增加，市场中不缺少准备金，FFR贴近甚至于低于央行IORB利率。为什么银行间拆借利率会低于IORB，将钱存在美联储中利息不是更高吗？这里得考虑另外一个因素，并不是所有商业银行都有资格在美联储中开通主账户（Master Account），这些无法开户的有小型银行以及投行等金融机构。这些金融机构手里有大笔现金，但无法存入美联储获得IORB的利息。因此他们可以在公开市场中出售这些资金以获得收入，而这个利率必然会比美联储的IORB更低。</p>
+<p>为了重新控制利率范围，控制金融机构手中现金的利率，美联储使用一种新的工具：逆回购，其本质是美联储直接向金融机构售卖债券并承诺固定期限内回购。金融机构将钱通过此种方式存入美联储并获得美联储逆回购提供的利率。</p>
+<p>最终，美联储将FFR控制在 [ON RRP Rate, IORB] 范围内。<br><img src="../post_img/Pasted%20image%2020240311001656.png" alt=""><br><img src="../post_img/Pasted%20image%2020240311002306.png" alt=""></p>
+<blockquote>
+<p>逆回购利率（Reverse Repurchase Agreement Rate）<br><img src="../post_img/Pasted%20image%2020240311001504.png" alt=""></p>
+</blockquote>
+<h2 id="市场借钱的价格：债券利率"><a href="#市场借钱的价格：债券利率" class="headerlink" title="市场借钱的价格：债券利率"></a>市场借钱的价格：债券利率</h2><p>利率是市场借钱的价格，高利率会抑制社会的经济活动，因为生产活动必须要得到高于利率的回报率才能产生正增长，而更高的利率会导致实际收益率下降。反过来，低利率会促使钱从流入实体经济中以寻求更高的收益率。市场是个势利鬼，风险越高的贷款人必须为借来的钱付出更高的价格（利率），因此市场中钱的价格可以画成一条与风险正相关的曲线。<br><img src="../post_img/Pasted%20image%2020240309180806.png" alt=""></p>
+<p>美国债券用美国政府信用担保而发行的债券，是世界上风险最小的资产，因此债券上的利率可以认为最低风险利率（无风险利率）。市场会以美债利率作为利率基准来衡量钱的价格。</p>
+<blockquote>
+<p>Coupon Rate：票面利率。债券票面上每年支付的利率。<br>Effective Rate：实际利率。和债券价格以及票面利率相关。债券价格越低则实际利率越高，债券价格越高则实际利率越低。<br>影响债券价格的三个因素：市场供需关系、到期时间、债券发行人等级。<br>美国长期国债：市场上最安全的“避险”资产。</p>
+</blockquote>
+<p><img src="../post_img/Pasted%20image%2020240309175737.png" alt=""></p>
+<h1 id="费雪方程式：钱和价格的关系"><a href="#费雪方程式：钱和价格的关系" class="headerlink" title="费雪方程式：钱和价格的关系"></a>费雪方程式：钱和价格的关系</h1><p><strong>MV=PQ</strong></p>
+<ul>
+<li>M=Money：货币供应量，中国的情况是货币的同比增速一般只能在10~30%波动；　</li>
+<li>V=Velocity：货币流通速度，货币流通速度在过热和过冷中能相差几十倍；V直接和信贷创造能力相;</li>
+<li>P=Price：商品价格；</li>
+<li>Q=Quantity：商品数量。　</li>
+</ul>
+<p>简单直白，M可以视为央行直接投放的高能货币M0；而V则和市场环境相关，市场环境趋好时资金流动速率提升，市场环境差的时候流动速率下降；而利率可以间接改变市场环境，因此低利率可以导致高流通速度。<br><strong>简要总结：M 受银行体系发行的货币数量影响，V 受货币利率影响。</strong></p>
+<p><strong>调控目标：美联储的两个调控目标之一是控制物价通胀保持2%区间。</strong><br>价格是信用货币社会的一个最重要因素，价格的变动应该处于一个稳定范围，这样才能符合社会发展情况。</p>
+<ul>
+<li>价格不能保持不涨：社会消费欲望会下降，进入通货紧缩的下降螺旋。</li>
+<li>价格不能暴涨：会导致社会危机，恶性通胀会摧毁金融体系。<br>以CPI、CPE指标来监视物价指数，维持在2%（US）～3%（CN）的水平是比较合适的。为了控制物价波动，除了需要通过需求、供应关系影响商品数量外，还需要通过货币政策来影响市场上钱的价格和流通速度。</li>
+</ul>
+<p><strong>美联储无法直接控制物价，只能通过调控货币量、利率来间接调控物价。而费雪方程式提供了一个很好的参照系。下述将描述美联储如何调控货币量和利率。</strong></p>
+<p>P.S 方程式是用于理解各个元素之间关系的相关函数，并不是可直接量化计算的公式。甚至各元素有可能并不是线性相关的。同时，方程也反映了不同的货币能级所具有的流动速率不相同的特点。</p>
+<h1 id="央行通过资产负债表和利率控制钱的总数"><a href="#央行通过资产负债表和利率控制钱的总数" class="headerlink" title="央行通过资产负债表和利率控制钱的总数"></a>央行通过资产负债表和利率控制钱的总数</h1><p>央行通过一系列的公开市场操作工具来影响钱的数量，以美联储 <a href="">Open Markert Opts</a>为例：</p>
+<ol>
+<li><strong>联邦基金利率：</strong>：调整联邦基金利率是美联储最主要的货币政策工具。通过调整这一利率，美联储可以影响银行之间的短期借贷成本，从而对整体经济产生影响。</li>
+<li><strong>购买和出售国债或者企业债：</strong><ol>
+<li>美联储通过购买和出售国债来影响市场上的长期利率。</li>
+<li>美联储购买和出售企业债，主要是房利美 (Fannie Mae)、房地美 (Freddie Mac)、联邦住房贷款银行 (Federal Home Loan Banks) 债券。</li>
+</ol>
+</li>
+<li><strong>购买抵押支持证券（MBS）</strong>： 美联储还可以购买和出售由房屋抵押贷款支持的证券，即抵押支持证券。这对房屋市场和贷款利率产生影响。</li>
+<li><strong>准备金利率</strong>：调整准备金利率影响商业银行持有在联邦储备系统的准备金的成本。这也会影响银行在市场上的借贷活动。</li>
+<li><strong>单期限回购协议</strong>：临时的公开市场操作。<ol>
+<li><strong>逆回购协议</strong>：暂时回收市场上的流动性。</li>
+<li><strong>正回购协议</strong>： 向市场提供流动性，并支持货币政策目标。</li>
+</ol>
+</li>
+</ol>
+<p>这些如何使用？2022年美国通胀率失控，CPI指数高达8%，来看看美联储控制通胀方式，通过公开市场操作进行，决议由FOMC（Federal Open Market Committee）产生：</p>
+<ol>
+<li>Tapering：减少购买资产数量。</li>
+<li>Raise Interest Rate：提高利率，控制钱的价格。</li>
+<li>Blance Sheet Runoff：减少到期资产滚动投资，直接减少向市场投放钱的数量。</li>
+<li>Overnight Rate（辅助手段）：隔夜利率，操作过程中可能导致流动性枯竭。因此通过隔夜逆回购操作临时投放流动性。</li>
+</ol>
+<p><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener">美联储缩表决议</a>，2022.6.1开始缩表：6月仅维持每月300亿滚动持仓，9月增加至600亿。按此计算全年滚动持仓最终将缩减至600x12=7200亿美元。到期美债或者企业债到期后将不再续期，由此减少资金量。<br><img src="../post_img/Pasted%20image%2020240310013019.png" alt=""></p>
+<p>FOMC美联储公开市场操作决议纪要（2021.1.31）：<br><img src="../post_img/Pasted%20image%2020240310005502.png" alt=""><br>FOMC美联储公开市场操作决议纪要（2022.1.31）：<br><img src="../post_img/Pasted%20image%2020240310005930.png" alt=""></p>
+<p>FOMC美联储公开市场操作决议纪要（2023.1.31）：<br><img src="../post_img/Pasted%20image%2020240310005021.png" alt=""></p>
+<p>FOMC美联储公开市场操作决议纪要（2023.12.13）：<br><img src="../post_img/Pasted%20image%2020240320004852.png" alt=""></p>
+<p>FOMC美联储公开市场操作决议纪要（2024.1.31）：<br><img src="../post_img/Pasted%20image%2020240310004712.png" alt=""></p>
+<h1 id="流通中钱的总量"><a href="#流通中钱的总量" class="headerlink" title="流通中钱的总量"></a>流通中钱的总量</h1><ul>
+<li>M3：总体</li>
+<li>社会融资规模：实体经济</li>
+</ul>
+<p><a href="https://zhuanlan.zhihu.com/p/593712580" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/593712580</a></p>
+<blockquote>
+<p>社会融资规模（即社融），按照央行定义，是指一定时期实体经济从金融体系获得的资金总额。<strong>社融与M2是反映同一事物的一体两面，分别描述了金融机构的资产端和负债端。</strong> 但数量上又不完全一致，主要是两者统计口径不同。M2是从供给端，反映全社会货币的供给情况；社融是从需求端，反映全社会货币的需求情况。整个经济体系对整个金融机构的资金需求就构成了整个金融体系中的资产端；而整个金融体系释放出去记在账上的货币，就是负责端。于是我们就可以粗略描绘一下金融体系的资产负债表了，两个东西就应运而生：作为资产端的社会融资规模和作为负债端的M2。不管是社会融资规模（简称社融）也好，M2也好，这些都叫做金融数据。</p>
+<p>M2是货币的供给，社融是货币的需求，理论上社融与M2的相对缺口越大则对应较高的利率水平。流量的实际含义是存量的流动，因而若单位流量与单位存量的差值越大，则说明单位流量对单位存量的需求越高。对应到社融和M2上，从该角度而言，社融可被看做货币的总需求，而M2则是货币的总供给，因此社融同比与M2同比的差异越大（为剔除规模影响，可采用同比增速衡量），说明信用主体对货币的需求就越旺盛，因此对应更高的利率水平，即社融同比-M2同比与利率水平正相关。</p>
+</blockquote>
+<p>社会融资水平反映了实体经济部门获得资金的总量，数据对象明确针对非金融企业部门；除了传统货币性贷款领域，社融还包含了诸如资产证券化、理财产品投资等新兴融资形式。总体而言，社融展示实体经济融资的实际情况。</p>
+<p><img src="../post_img/Pasted%20image%2020240420182207.png" alt=""></p>
+<p><img src="../post_img/Pasted%20image%2020240418024525.png" alt=""></p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'zwf.im/how-money-created/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'zwf.im/how-money-created/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/exchange/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/king-and-emperor/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/daily_pic.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/tower.png" alt="Mr Wiflin's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        wiflin 的 百草园
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="https://github.com/Wiflin" target="_blank" title="Github">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">code</i>
+                        
+                        Github
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="mailto: yummy@zwf.im" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2025/11/">十一月 2025<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2025/04/">四月 2025<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2024/04/">四月 2024<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2024/03/">三月 2024<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/08/">八月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/03/">三月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/11/">十一月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/10/">十月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/monitor/index.html" title="市场监控">
+                
+                    <i class="material-icons sidebar-material-icons">description</i>
+                
+                市场监控
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/notes" title="笔记">
+                
+                    <i class="material-icons sidebar-material-icons">note</i>
+                
+                笔记
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+    <a href="mailto:ibh@live.com" class="sidebar-footer-text-a">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+        sidebar.help
+        <span class="mdl-button__ripple-container">
+          <span class="mdl-ripple"></span>
+        </span>
+      </div>
+    </a>
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/Wiflin" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;Wiflin 的 百草园
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/bollnh/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<!-- <script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('
+<link rel="stylesheet" href="/css/uc.css">
+');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script> -->
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016.07;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/bollnh/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

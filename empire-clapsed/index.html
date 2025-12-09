@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/bollnh/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://.disqus.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://hm.baidu.com"/>
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            帝国崩塌 | 
+        
+        Wiflin 的 百草园
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.svg">
+    <link rel="icon" href="/img/favicon.svg">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="wiflin, blog, wiflin的杂草园, wiflin的百草园">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #e9e9e9;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery-3.7.1.min.js?LIctvmD0unD7hTVhE9izXg==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Wiflin 的 百草园">
+    <meta name="msapplication-starturl" content="zwf.im/empire-clapsed/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Wiflin 的 百草园">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.svg">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="zwf.im/empire-clapsed/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="帝国崩塌 | Wiflin 的 百草园">
+    <meta property="og:image" content="/img/favicon.svg">
+    <meta property="og:description" content="">
+    
+
+    
+        <meta property="article:published_time" content="Sat Apr 05 2025 01:07:38 GMT+0800">
+        <meta property="article:modified_time" content="Tue Apr 29 2025 01:22:42 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="zwf.im/empire-clapsed/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "zwf.im/empire-clapsed/index.html",
+    "headline": "帝国崩塌",
+    "datePublished": "Sat Apr 05 2025 01:07:38 GMT+0800",
+    "dateModified": "Tue Apr 29 2025 01:22:42 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Mr Wiflin",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/tower.png"
+        },
+        "description": "这个人很懒，这里杂草丛生。"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Wiflin 的 百草园",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.svg"
+        }
+    },
+    "keywords": "wiflin, blog, wiflin的杂草园, wiflin的百草园",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111728471-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+        <script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?ef9cc7e7fff33870734358077543246f';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    
+    
+
+    <!-- Custom Head -->
+    
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#帝国黄昏：“债务破裂”"><span class="post-toc-number">1.</span> <span class="post-toc-text">帝国黄昏：“债务破裂”</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#帝国崛起：起朱楼，宴宾客"><span class="post-toc-number">2.</span> <span class="post-toc-text">帝国崛起：起朱楼，宴宾客</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#忒修斯之船：一点点拆掉美元体系"><span class="post-toc-number">3.</span> <span class="post-toc-text">忒修斯之船：一点点拆掉美元体系</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#日落的方向：债券收益率和汇率崩塌"><span class="post-toc-number">4.</span> <span class="post-toc-text">日落的方向：债券收益率和汇率崩塌</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#新体系依然面临特里芬难题"><span class="post-toc-number">5.</span> <span class="post-toc-text">新体系依然面临特里芬难题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#资本主义的问题根源"><span class="post-toc-number">6.</span> <span class="post-toc-text">资本主义的问题根源</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                帝国崩塌
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/tower.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Mr Wiflin</strong>
+        <span>4月 05, 2025</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=帝国崩塌&url=zwf.im/empire-clapsed/index.html&pic=zwf.im/img/favicon.svg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=帝国崩塌&url=zwf.im/empire-clapsed/index.html&via=Mr Wiflin" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=zwf.im/empire-clapsed/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=zwf.im/empire-clapsed/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>36万亿美元的国债，按照平均利率3%，年付息1万亿。27万亿美元的GDP，按照平均税率16%，政府年收入3.5万亿。大约30%的政府收入用来付利息，政府很快就要连利息都付不起了。<br>主要数字：<a href="https://bipartisanpolicy.org/explainer/net-interest-us-gov-debt/" target="_blank" rel="noopener">ref1</a><br><strong>2021 财年</strong>：债务余额 27 万亿美元；利息支出 5624 亿美元；。<br><strong>2022 财年</strong>：债务余额 30 万亿美元；利息支出 7196 亿美元；。<br><strong>2023 财年</strong>：债务余额 33 万亿美元；利息支出 6100 万亿美元；财政收入 4.4 万亿美元。<br><strong>2024 财年</strong>：债务余额 35 万亿美元；利息支出 8900 万亿美元；财政收入 4.92 万亿美元。</p>
+</blockquote>
+<p><img src="../post_img/Pasted%20image%2020250411014449.png" alt=""><br><img src="../post_img/Pasted%20image%2020250411021754.png" alt=""></p>
+<h3 id="帝国黄昏：“债务破裂”"><a href="#帝国黄昏：“债务破裂”" class="headerlink" title="帝国黄昏：“债务破裂”"></a>帝国黄昏：“债务破裂”</h3><p>通常来说，财富以资产形式存在，资产就是财富。然而会产生两种截然不同的理解，第一种理解是只有净资产被认作财富，第二种理解是总资产是财富。对于不同的实体（个人、企业、主权国家），在不同的风险偏好策略角度下，往往会有不一样的理解。</p>
+<p><strong>财富是控制的资源数量。</strong><br>国家通过发行国债借钱购买资产，此时资产负债表的两侧的债务和资产项同步增加，净资产不变，但国家能够控制、使用的资源变得更多。当债券到期时通过发行新的债券置换老债券，这种方式允许无限持续地拥有这些资产。因此，借的钱越多，相当于能控制的财富越多，这个过程属于“空手套白狼”。</p>
+<p>但是，真的可以无限持续这个游戏吗？代价是什么？</p>
+<p>游戏持续下去需要两个条件，一是有人愿意持有这些债券，二是为这些债券付利息。第二个条件政府需要有足够的财政收入去支付利息。当然，政府甚至可以发行债券去支付利息。那么就剩下一个问题，是否有人愿意去买入并持有债券？这个条件成立，整个游戏可以持续；假如政府债券信用下降，或者大家不再购买债券，这个游戏就无法持续了。</p>
+<blockquote>
+<p>债务危机：当利息都还不起时，这个债务游戏就将结束。</p>
+</blockquote>
+<h3 id="帝国崛起：起朱楼，宴宾客"><a href="#帝国崛起：起朱楼，宴宾客" class="headerlink" title="帝国崛起：起朱楼，宴宾客"></a>帝国崛起：起朱楼，宴宾客</h3><p>战后格局中，世界百废待兴，多数国家的工业体系被摧毁得七零八落，还有更多国家正在摆脱旧世界的殖民体系进程中。七十年代之前，美国作为第一大商品生产基地，源源不断地对外输出商品，其他国家想要购买美国的工业制成品，必须先通过各种方式赚取美元，然后才可以购买美国商品。赚取美元有多种方式：</p>
+<ol>
+<li>靠天吃饭：通过输出原料（各种矿石）、能源（石油、天然气）、粮食等大宗商品赚取贸易差额。</li>
+<li>后天努力：通过大量出售低附加值低门槛的轻工业产品，如服装成衣、组装产品等赚取贸易差额。</li>
+<li>等金主：通过出让主权或其他利益与美国建立盟友关系，从而获得美国援助。</li>
+</ol>
+<p><strong>美国梦：制造业兴国</strong><br>在这个过程中美国制造业产品流向全世界，同时美元也随着输出，成为全球贸易的结算货币。美国出口高附加值产品换取低附加值产品，意味着美国工人的劳动时间附加值相对于他国工人更高。美国低附加值的制造业需要同时承受更高的劳动力价格（劳动力价格被高附加值制造业推高），和低价的国外商品竞争。此时，企业主可以借助经济全球化的机会将产业链外移至东南亚等劳动力价格低廉的地区，又或者通过引入低廉的外国劳动力拉平劳动力价格曲线，在这个过程中低附加值和低技术门槛的制造业会逐渐流失。在此阶段，美国国内优胜劣汰将高附加值制造业留下来，美国工人阶级轻松享受高利润制造也带来的高收入，并且同时享受全球化带来的源源不断的低价进口产品。</p>
+<p><strong>投入科学研究构建高附加值壁垒</strong><br>较低的基础生活成本允许民众将一部分剩余投入到文化、电影等第三产业中，带动了如好莱坞等的兴旺。政府和企业此时拥有大量资源投入到基础科学和应用科学的研究中，同时美国梦也吸引了全世界的知识分子进入美国学习并留在美国投身科学研究，进一步构建高附加值产业壁垒。</p>
+<p><strong>通过军事霸权构建石油美元</strong><br>沙特受上帝恩惠拥有大量高品位石油油田，但深处中东长期受到地缘政治威胁，特别是来自于以色列的威胁。美国与沙特达成协议，承诺为其提供军事保护和武器供应，换取沙特以美元作为石油唯一计价货币。此外，沙特通过石油出口积累的巨额美元盈余，需寻找安全且流动性高的投资标的。美国国债作为“无风险资产”，成为沙特外汇储备的核心配置，进一步强化石油美元环流。</p>
+<p><strong>全球储备货币成形</strong><br>美国拥有最大的消费市场以及高附加值制造业，相当于抓住了一头一尾两端，使美元成为全球储备货币（global reserve）。储备货币的特权就是具有所有流通商品的定价权。这个定价权相当于是一个紧箍咒，可以使美元牢牢控制着全世界资产和商品贸易。</p>
+<p><strong>构建货币霸权和金融霸权：市场化铺路，全球化敲门</strong><br>美元掌控全球资产有一个前提，资产可以被货币化。如果一个资产不被货币化，譬如计划经济体中大部分商品是没有价格的，只能通过凭证或者配额交易。一个国有企业的资产也可能不允许被市场交易。总而言之，拥有美元霸权的美国需要尽可能使得所有资产都可以在市场上进行交易，这样才能最大限度的利用美元的定价权去收割这些资产。<br>具体的做法，通过资本主义意识形态削弱大政府主义阵营和思想，使市场化（将资产货币化）思维深入人心，减少国有垄断专营经济，为资本横扫一切有价值资产铺平道路。通过全球化故事将所有国家纳入WTO阵营以及减少金融管控，从而使金融大门对外打开。<br>货币化之后另外一个好处是市场上的资产多了，需要的货币数量也相应地变多，也就是可以发行更多美债、印更多的美元去收购资产。举个例子，假设世界上的货币总量只有1亿，只有一个苹果的资产，那么当前每个苹果价格1亿，但是当某一天苹果突然多了一个（资产货币化后相当于可以被量化定价的资产变多），那么每个苹果价格为0.5亿，若要维持价格不变，则需要同步增加一倍货币数量。这就是信用货币需要持续扩张的原因之一，社会总生产力在增加，总货币供给要同步增加。</p>
+<p><strong>收割全世界：美元环流</strong><br>美元霸权的核心是美元的价值可以根据战略需要调整。在“钱的价格”中提到利率是钱的价格，通过提高利率可以提高每一块美元的价格，钱会离开非美元定价标的，进入美元定价标的中。在这个过程中，非美元标的（资产价格、主权货币价格）全部下跌，严重的甚至引发经济体进入衰退螺旋，资产价格发生超跌。经过如此一波血洗后，通过降低利率的方式向市场提供大量美元，对高价值资产进行收割。</p>
+<p><strong>外部的追赶和威胁</strong><br>其他国家通过与美国做贸易并且省吃俭用赚取到了第一桶金，随后将省下来的资源投资国内的人才、科技和工业。这些国家可以通过不断的后天努力，进行技术迭代、工农业剪刀差等方式终于发展出自己的制造业。一旦这些国家挤进了高附加值产业的游戏中，就会和美国的产业形成直接的正面竞争，进而威胁到美国的霸权地位。</p>
+<p>帝国必须使用一切手段击溃一切想爬上来的对手，牢牢保住老大的地位一百年不动摇。不同的对手，有不同的弱点，美国使用不同的手段将他们一一击溃。对付日本利用的是其两头向外的外向型经济的弱点，对付欧盟则利用各国缺失的货币主权制造债务危机。对付龙国则利用地缘政治频繁制造危机。</p>
+<h3 id="忒修斯之船：一点点拆掉美元体系"><a href="#忒修斯之船：一点点拆掉美元体系" class="headerlink" title="忒修斯之船：一点点拆掉美元体系"></a>忒修斯之船：一点点拆掉美元体系</h3><p>拆掉美元体系首先从振兴制造业和制造业升级开始，通过培养大量高科技人才提升制造业附加值并进一步构建价值壁垒，掐掉了美元体系的商品生产端。通过贸易谈判将全球大宗商品（能源、矿石、粮食）与美元接触挂钩，或者与新货币进行挂钩，换掉美元的大宗商品定价权。这两步相当于拆掉了美元霸权的根基，但此时美元霸权还不会坍塌，因为资产的定价权依然以美元为主。</p>
+<p>最后，向美元底层资产出击，对美元与美元债务进行置换。这个过程非常漫长，一方面需要对汇率体系进行脱钩，构建一揽子货币的汇率体系，另一方面需要逐渐将贸易伙伴的美元债务置换为本国主权货币债务。转换过程中，黄金会成为过渡阶段的重要资产，直至新的货币体系和债务体系完成对美元定价体系和美债体系的置换。</p>
+<p>BTW，要认识到所有区块链货币都是在维护美元体系，区块链稳定币锚定美元，其底层资产为美债，已经形成2000亿美元的规模。因此，美元体系崩塌过程中，链上货币的走势会呈现和黄金不一样的趋势。</p>
+<h3 id="日落的方向：债券收益率和汇率崩塌"><a href="#日落的方向：债券收益率和汇率崩塌" class="headerlink" title="日落的方向：债券收益率和汇率崩塌"></a>日落的方向：债券收益率和汇率崩塌</h3><blockquote>
+<p>坍塌可能需要很长时间，但也可能发生于一瞬间。</p>
+</blockquote>
+<p>美元体系的最重要底层资产是美债。作为传统意义上的避险资产，美债承载巨大流动性。当美元体系崩塌，资金会从美债和美元外汇中持续流出，当这个流出速度达到一定程度时，会触发大规模的杠杆崩盘，使得大量美债和美元被强制平仓从而引发更加剧烈的下跌。此时此刻，百年未有之大变局到来，世界未来会变成什么样？</p>
+<p>导火索有可能将被点燃。2025年6月财政部将面临巨额债务置换压力。<br><img src="../post_img/Pasted%20image%2020250412181608.png" alt=""></p>
+<h3 id="新体系依然面临特里芬难题"><a href="#新体系依然面临特里芬难题" class="headerlink" title="新体系依然面临特里芬难题"></a>新体系依然面临特里芬难题</h3><p><strong>“作为国际储备货币的发行国，无法同时实现国内政策目标和全球货币责任的平衡”</strong> —— 既要输出货币满足全球需求，又要维持货币价值稳定，二者相互排斥。这一难题至今仍是国际货币体系的核心挑战，也是推动货币多元化和全球金融治理改革的重要理论依据。</p>
+<ol>
+<li><strong>全球流动性需求 vs 货币信用稳定</strong><ul>
+<li>为满足全球贸易增长和储备需求，美国必须通过 <strong>贸易逆差</strong> 向世界输出美元（如进口商品、对外投资），确保其他国家拥有足够美元用于国际支付。</li>
+<li>但长期贸易逆差会导致美元积累过剩，市场对美元信心下降，引发美元贬值压力，威胁美元与黄金的固定兑换比率（即 “美元荒” 演变为 “美元灾”）。</li>
+</ul>
+</li>
+<li><strong>美国国内政策目标 vs 国际责任的冲突</strong><ul>
+<li>若美国为维持美元信用而追求 <strong>贸易顺差</strong>，全球美元供应不足，会引发通缩和国际贸易萎缩（即 “美元荒”），无法满足世界经济发展的流动性需求。</li>
+<li>若美国为提供流动性而放任贸易逆差，美元信用受损，最终导致对黄金的挤兑（如 1960 年代的 “黄金危机”），破坏货币体系稳定性。</li>
+</ul>
+</li>
+</ol>
+<h3 id="资本主义的问题根源"><a href="#资本主义的问题根源" class="headerlink" title="资本主义的问题根源"></a>资本主义的问题根源</h3><p>赚钱的公司不给政府纳税！</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'zwf.im/empire-clapsed/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'zwf.im/empire-clapsed/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/aibond/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/exchange/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/daily_pic.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/tower.png" alt="Mr Wiflin's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        wiflin 的 百草园
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="https://github.com/Wiflin" target="_blank" title="Github">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">code</i>
+                        
+                        Github
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="mailto: yummy@zwf.im" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2025/11/">十一月 2025<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2025/04/">四月 2025<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2024/04/">四月 2024<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2024/03/">三月 2024<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/08/">八月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/03/">三月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/11/">十一月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/10/">十月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/11/">十一月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/monitor/index.html" title="市场监控">
+                
+                    <i class="material-icons sidebar-material-icons">description</i>
+                
+                市场监控
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/notes" title="笔记">
+                
+                    <i class="material-icons sidebar-material-icons">note</i>
+                
+                笔记
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+
+<!-- Help & Support -->
+<!--
+
+    <a href="mailto:ibh@live.com" class="sidebar-footer-text-a">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+        sidebar.help
+        <span class="mdl-button__ripple-container">
+          <span class="mdl-ripple"></span>
+        </span>
+      </div>
+    </a>
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/Wiflin" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;Wiflin 的 百草园
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/bollnh/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<!-- <script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('
+<link rel="stylesheet" href="/css/uc.css">
+');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script> -->
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016.07;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/bollnh/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
